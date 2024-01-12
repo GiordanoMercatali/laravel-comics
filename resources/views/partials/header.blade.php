@@ -4,9 +4,9 @@
     </div>
     <nav>
         <ul>
-            {{-- <li>
+             <li>
                 <a href="{{route ('welcome') }}">Welcome</a>
-            </li> --}}
+            </li> 
             <li>
                 <a href="{{route ('characters') }}">Characters</a>
             </li>
