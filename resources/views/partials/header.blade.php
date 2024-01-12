@@ -1,9 +1,9 @@
-<header>
+<header class="d-flex align-items-center">
     <div>
         <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="DC Logo">
     </div>
     <nav>
-        <ul>
+        <ul class="d-flex gap-5">
              <li>
                 <a href="{{route ('welcome') }}">Welcome</a>
             </li> 
