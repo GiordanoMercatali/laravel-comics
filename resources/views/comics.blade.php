@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+    
+
+    <div class="jumbotron">
+        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="Jumbo">
+    </div>
     <h1>Comics</h1>
-        
         <div class="row row-cols-4">
             @foreach ($comics as $comic)
                 <div class="col">

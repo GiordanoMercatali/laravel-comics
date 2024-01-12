@@ -1,4 +1,4 @@
-<header class="d-flex align-items-center">
+<header>
     <div>
         <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="DC Logo">
     </div>
