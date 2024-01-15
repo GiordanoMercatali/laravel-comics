@@ -1,8 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    // background-color: lightgreen;
-}
+// body {
+//     background-color: lightgreen;
+// }
 
 header{
 
@@ -15,6 +15,32 @@ header{
         list-style-type: none;
     }
     
+}
+
+footer{
+
+    .upper-footer{
+        // background-image: "./img/footer-bg.jpg";
+        // background-image: "resources\img\footer-bg.jpg";
+        // background-image: "{{Vite::asset('resources/img/footer-bg.png')}}";
+    }
+
+    .lower-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 10rem;
+        background-color: rgb(50, 50, 50);
+        
+
+        ul{
+            list-style-type: none;
+        }
+
+        [class*="primary"]{
+            font-weight: bold;
+        }
+    }
 }
 
 main{
